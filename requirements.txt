@@ -1,0 +1,16 @@
+fastapi
+uvicorn[standard]
+jinja2
+pydantic-settings
+boto3 # Access AWS Services
+psycopg[binary,pool] #Authentication for PostGreSQL
+pypdf 
+python-docx
+httpx #Send requests to bedrock
+langgraph
+pinecone #Vector database service
+
+python-dotenv # Managing .env
+
+# Agent observability (Optional at runtime)
+glassflow-rius
